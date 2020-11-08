@@ -1,16 +1,16 @@
-# This is a sample Python script.
+import SelfMadeAkinator
+import functions
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+if __name__ == "__main__":
+    d = functions.open_file('file/questions')
+    q = functions.dict_to_class(d)
+    akinator = SelfMadeAkinator.SelfMadeAkinator(q)
+    akinator.run()
+    # qestions = functions.initialize()
+    # functions.write(functions.class_to_dict(qestions), 'file/tree')
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # dict = SelfMadeAkinator.ClassToDict(qestions)
+    # write(dict)
+    # d = open_file()
+    # q = SelfMadeAkinator.dict_to_class(d)
+    # SelfMadeAkinator.print_tree(q)

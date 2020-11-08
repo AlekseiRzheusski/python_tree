@@ -1,0 +1,45 @@
+{
+    "question": "question 1",
+    "left": {
+        "question": "question 2",
+        "left": {
+            "question": "question4",
+            "left": {
+                "answer": "answer 1"
+            },
+            "right": {
+                "answer": "answer 2"
+            }
+        },
+        "right": {
+            "question": "question 5",
+            "left": {
+                "answer": "answer 3"
+            },
+            "right": {
+                "answer": "answer 4"
+            }
+        }
+    },
+    "right": {
+        "question": "question 3",
+        "left": {
+            "question": "question 6",
+            "left": {
+                "answer": "answer 5"
+            },
+            "right": {
+                "answer": "answer 6"
+            }
+        },
+        "right": {
+            "question": "question 7",
+            "left": {
+                "answer": "answer 7"
+            },
+            "right": {
+                "answer": "answer 8"
+            }
+        }
+    }
+}
